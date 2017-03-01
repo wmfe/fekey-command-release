@@ -21,7 +21,7 @@ exports.options = {
   '--verbose': 'enable verbose mode'
 };
 
-exports.run = function(argv, cli, env) {
+exports.run = function(argv, k_cli, cli, env) {
 
   // 显示帮助信息
   if (argv.h || argv.help) {
